@@ -17,7 +17,7 @@
 # docker build -f docker/Dockerfile -t <tag> .
 
 # Based on Ubuntu 20.04
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 RUN apt-get update
 
